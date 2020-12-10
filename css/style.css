@@ -1,0 +1,52 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    background:url("../oblaka-nebo-sinij-venitomusic-vysota-poleta-samoleta.svg");
+}
+input{
+    border: none;
+    background: none;
+    color: aliceblue;
+    border-bottom: 2px solid white;
+    width: 300px;
+    line-height: 30px;
+    outline: none;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#output{
+    border: 1px solid aqua;
+    width: 450px;
+    height: 350px;
+    margin-top: 5%;
+    margin-left: 10%;
+    background:linear-gradient(180deg,blue,aqua);
+}
+button{
+    background:none;
+    color:white;
+    border:1px solid aqua;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+h1{
+    color: white;
+    border: 1px solid black;
+    display: inline;
+    border-radius:20px;
+    line-height: 90px;
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+    color:white;
+    border: 1px solid black;
+    line-height: 40px;
+    margin-top: 10%;
+    padding: 10px;
+}
+.all{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
